@@ -1,0 +1,14 @@
+﻿<Window x:Class="User_Controls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User_Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <local:PersonInfoControl PersonName="Nika" PersonAge="30" PersonCountry="Georgia"/>
+        <local:PersonInfoControl PersonName="Gio" PersonAge="25" PersonCountry="United States"/>
+        <local:PersonInfoControl PersonName="Dato" PersonAge="20" PersonCountry="Argentina"/>
+    </StackPanel>
+</Window>
